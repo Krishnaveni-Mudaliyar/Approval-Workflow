@@ -4,7 +4,7 @@ A Business Central AL extension that adds a controlled approval lifecycle to the
 
 ## Overview
 
-Every new customer starts **Open** and blocked from use. Depending on whether a Customer Approval Workflow is enabled, a customer is either sent through BC's standard approval process or released directly, ultimately reaching **Released** status — at which point it becomes usable.
+Every new customer starts **Open** and is blocked from use. Depending on whether a Customer Approval Workflow is enabled, a customer is either sent through BC's standard approval process or released directly, ultimately reaching **Released** status — at which point it becomes usable.
 
 ```
 Open ──(Send Approval Request)──▶ Pending for Approval ──(Approved)──▶ Released
