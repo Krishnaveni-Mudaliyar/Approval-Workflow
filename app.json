@@ -1,0 +1,52 @@
+{
+    "id": "2f3a9cff-8e72-4d4f-93e3-7f8b5c1e03d4",
+    "name": "Approval Workflow",
+    "publisher": "Krishnaveni Mudaliyar",
+    "version": "1.0.0.0",
+    "brief": "Approval Workflow",
+    "description": "Approval Workflow",
+    "dependencies": [
+        {
+            "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+            "name": "Base Application",
+            "publisher": "Microsoft",
+            "version": "28.1.0.0"
+        },
+        {
+            "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+            "name": "System Application",
+            "publisher": "Microsoft",
+            "version": "28.1.0.0"
+        },
+        {
+            "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+            "name": "Library Assert",
+            "publisher": "Microsoft",
+            "version": "28.1.0.0"
+        },
+        {
+            "id": "d852d5d2-a39d-4179-baeb-f99a19e32510",
+            "name": "Application Test Library",
+            "publisher": "Microsoft",
+            "version": "28.1.0.0"
+            }
+        ],
+        "screenshots": [],
+        "platform": "28.1.0.0",
+        "application": "28.1.0.0",
+        "idRanges": [
+            {
+                "from": 50000,
+                "to": 60000
+            }
+        ],
+        "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "runtime": "16.1",
+    "features": [
+        "NoImplicitWith"
+    ]
+}
