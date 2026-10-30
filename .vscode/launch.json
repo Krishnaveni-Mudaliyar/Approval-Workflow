@@ -1,4 +1,4 @@
-{
+{  
     "version": "0.2.0",
     "configurations": [
         {
@@ -7,7 +7,7 @@
             "type": "al",
             "environmentType": "Sandbox",
             "environmentName": "BC-Modules",
-            "tenant": "34bf3a6d-fc44-4c00-81e1-6a1edf2eda4e",
+            "tenant": "0ccc2244-9612-47e2-8693-f744fc251b18",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",
