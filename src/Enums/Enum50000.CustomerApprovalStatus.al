@@ -1,7 +1,7 @@
 enum 50000 "Customer Approval Status"
 {
     Extensible = true;
-    
+
     value(0; Open)
     {
         Caption = 'Open';

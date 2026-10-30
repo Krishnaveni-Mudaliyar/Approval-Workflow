@@ -17,7 +17,9 @@ codeunit 50002 "Customer Approval Mgt. Tests"
     procedure NewCustomerDefaultsToOpenAndBlockedAll()
     var
         Customer: Record Customer;
+
     begin
+
         // When a new customer is created
         CreateBasicCustomer(Customer);
 
